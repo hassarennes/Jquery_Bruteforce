@@ -1,0 +1,14 @@
+body{
+	background-color: red;/*#3D81E8*/
+}
+*{
+	font-family: 'Times New Roman', 'Tahoma','Sans-serif' !important
+}
+.Text{
+	color: white;
+	text-align: center;
+}
+h1 {
+	font-size: 55px;
+	font-weight: bold;
+}
