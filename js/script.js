@@ -1,11 +1,11 @@
 
-var dico=[];
-var results={};
+var passwordd=[];
+var resultat={};
 
 $.ajax({
 	url: "http://docusland.fr/code-academie/js_bruteforce/data/dico.txt",
 	complete: function(result){
-		dico = result.responseText.split("\n");
+		passwordd = result.responseText.split("\n");
 	}
 });
 
@@ -24,7 +24,7 @@ function testPassword(passwd){
 		type: "POST",
 		password: passwd,
 		complete: function(result){
-			results[passwd] = result;
+			resultat[passwd] = result;
 		}
 	});
 }
