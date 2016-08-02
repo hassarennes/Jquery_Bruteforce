@@ -12,10 +12,10 @@ $.ajax({
 $(document).ajaxComplete(function(){
 	
 	for (var i = 0; i < 1; i++) {
-		testPassword(dico[i]);
+		testPassword(passwordd[i]);
 	}
 	
-	testPassword(dico[0]);
+	testPassword(passwordd[0]);
 });
 
 function testPassword(passwd){
